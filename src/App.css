@@ -1,0 +1,100 @@
+.App {
+  padding: 1rem;
+  padding-top: 20vh;
+}
+
+.Name {
+  font-size: 4rem;
+  color: #f8f9fa;
+  background: #212121;
+}
+
+.Designation {
+  font-size: 1.5rem;
+  color: #dee2e6;
+}
+
+.Frameworks {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #f8f9fa;
+}
+
+.Languages {
+  font-size: 1rem;
+  color: #f8f9fa;
+}
+
+.Contacts {
+  margin-top: 1rem;
+}
+
+.Contact {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #fcbf49;
+  transition: 0.3s;
+}
+
+.Contact:hover {
+  color: #f8f9fa;
+  background: #212121;;
+}
+
+@media all (max-width: 640px) {
+  .App {
+    margin-top: 0vh;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Name {
+    font-size: 2.5rem;
+  }
+
+  .Designation {
+    font-size: 1.5rem;
+  }
+
+  .Frameworks {
+    font-size: 1rem;
+  }
+
+  .Languages {
+    font-size: 1rem;
+  }
+
+  .Contacts {
+    font-size: 1rem;
+  }
+
+  .Contact {
+    font-size: 1rem;
+  }
+}
+
+body {
+  margin: auto;
+  max-width: 640px;
+  font-family: 'Space Mono', monospace;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
