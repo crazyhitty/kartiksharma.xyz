@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 const contacts = [
-  { name: 'Email', link: 'mailto:hello@kartiksharma.xyz?subject=Hello%20from%20website' },
+  { name: 'Email', link: 'mailto:kartik.sharma.og@gmail.com?subject=Hello%20from%20website' },
   { name: 'LinkedIn', link: 'http://linkedin.com/in/kartik-chdev' },
   { name: 'Github', link: 'http://github.com/crazyhitty' }
 ]
