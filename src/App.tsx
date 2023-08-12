@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="Name">{"Kartik Sharma"}</div>
-      <div className="Designation">{"Sr. Software Engg @ Myntra"}</div>
+      <div className="Designation">{"Tech Lead @ Myntra"}</div>
       <div className="Frameworks"><b>Frameworks:</b> Android, React Native</div>
       <div className="Languages"><b>Languages:</b> Java, Kotlin, Typescript and a little bit of Python</div>
       <div className="Contacts">
